@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+ <image src="../../common/images/img1.jpg"></image>
+ <view class="navtab">
+  <view>
+   <image src="../../common/images/img01.jpg"></image>
+   <text>放松表</text>
+  </view>
+  <view>
+   <image src="../../common/images/img02.jpg"></image>
+   <text>分类</text>
+  </view>
+     <view>
+   <image src="../../common/images/img03.jpg"></image>
+   <text>榜单</text>
+  </view>
+   <view>
+   <image src="../../common/images/img04.jpg"></image>
+   <text>完结</text>
+  </view>
+ </view>
+ <view class="tit">
+   <view class='left'>
+   <text class='cf'></text>
+   <text class='bigSize'>精品佳作</text>
+   </view>
+   <text class='smlSize'>查看更多</text>
+ </view>
+ <view class="swiper">
+  <view>
+  <image src="../../common/images/img1.jpg"></image>
+  <text>狂想情人</text>
+  <text>记住了，渣男必须死</text>
+  </view>
+  <view>
+  <image src="../../common/images/img2.jpg"></image>
+  <text>魔法圣女塔罗牌</text>
+  <text>变身魔法少女小圆</text>
+  </view>
+ </view>
+</view>

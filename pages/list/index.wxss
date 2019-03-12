@@ -1,0 +1,23 @@
+/* pages/list/index.wxss */
+.main{
+  display: flex;
+  align-items: center;
+  padding:15px 10px;
+}
+.main image{
+  width:155px;
+  height:85px;
+  margin-right:10px;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+}
+.bigSize{
+  font-size:16px;
+  font-weight: 700;
+}
+.smlSize{
+  font-size: 12px;
+  color:#999;
+}

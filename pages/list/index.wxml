@@ -1,0 +1,42 @@
+<view class="container">
+<view class='main'>
+<image src='../../common/images/img1.jpg'></image>
+<view class='cont'>
+<text class='bigSize'>照明商店</text>
+<text class='smlSize'>作者：姜草</text>
+<text class='smlSize'>妈耶,太恐怖了！</text>
+</view>
+</view>
+<view class='main'>
+<image src='../../common/images/img2.jpg'></image>
+<view class='cont'>
+<text class='bigSize'>照明商店</text>
+<text class='smlSize'>作者：姜草</text>
+<text class='smlSize'>妈耶,太恐怖了！</text>
+</view>
+</view>
+<view class='main'>
+<image src='../../common/images/img1.jpg'></image>
+<view class='cont'>
+<text class='bigSize'>照明商店</text>
+<text class='smlSize'>作者：姜草</text>
+<text class='smlSize'>妈耶,太恐怖了！</text>
+</view>
+</view>
+<view class='main'>
+<image src='../../common/images/img2.jpg'></image>
+<view class='cont'>
+<text class='bigSize'>照明商店</text>
+<text class='smlSize'>作者：姜草</text>
+<text class='smlSize'>妈耶,太恐怖了！</text>
+</view>
+</view>
+<view class='main'>
+<image src='../../common/images/img2.jpg'></image>
+<view class='cont'>
+<text class='bigSize'>照明商店</text>
+<text class='smlSize'>作者：姜草</text>
+<text class='smlSize'>妈耶,太恐怖了！</text>
+</view>
+</view>
+</view>

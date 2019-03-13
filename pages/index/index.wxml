@@ -1,6 +1,18 @@
 <!--index.wxml-->
 <view class="container">
- <image src="../../common/images/img1.jpg"></image>
+ <swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  class="banner"
+>
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
  <view class="navtab">
   <view>
    <image src="../../common/images/img01.jpg"></image>
@@ -24,18 +36,22 @@
    <text class='cf'></text>
    <text class='bigSize'>精品佳作</text>
    </view>
-   <text class='smlSize'>查看更多</text>
+   <navigator url="../list/index" class='smlSize'>查看更多</navigator>
  </view>
  <view class="swiper">
   <view>
   <image src="../../common/images/img1.jpg"></image>
+  <view class='content'>
   <text>狂想情人</text>
-  <text>记住了，渣男必须死</text>
+  <text class='smlSize'>记住了，渣男必须死</text>
+  </view>
   </view>
   <view>
   <image src="../../common/images/img2.jpg"></image>
-  <text>魔法圣女塔罗牌</text>
-  <text>变身魔法少女小圆</text>
+  <view class='content'>
+  <text>魔法少女</text>
+  <text class='smlSize'>魔法少女小圆</text>
+  </view>
   </view>
  </view>
 </view>

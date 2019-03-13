@@ -1,42 +1,12 @@
 <view class="container">
+<block wx:for="{{list}}" wx:key="{{item.id}}">
 <view class='main'>
-<image src='../../common/images/img1.jpg'></image>
+<image src="{{item.imgPath}}"></image>
 <view class='cont'>
-<text class='bigSize'>照明商店</text>
-<text class='smlSize'>作者：姜草</text>
-<text class='smlSize'>妈耶,太恐怖了！</text>
+<text class='bigSize'>{{item.title}}</text>
+<text class='smlSize'>{{item.writer}}</text>
+<text class='smlSize'>{{item.dis}}</text>
 </view>
 </view>
-<view class='main'>
-<image src='../../common/images/img2.jpg'></image>
-<view class='cont'>
-<text class='bigSize'>照明商店</text>
-<text class='smlSize'>作者：姜草</text>
-<text class='smlSize'>妈耶,太恐怖了！</text>
-</view>
-</view>
-<view class='main'>
-<image src='../../common/images/img1.jpg'></image>
-<view class='cont'>
-<text class='bigSize'>照明商店</text>
-<text class='smlSize'>作者：姜草</text>
-<text class='smlSize'>妈耶,太恐怖了！</text>
-</view>
-</view>
-<view class='main'>
-<image src='../../common/images/img2.jpg'></image>
-<view class='cont'>
-<text class='bigSize'>照明商店</text>
-<text class='smlSize'>作者：姜草</text>
-<text class='smlSize'>妈耶,太恐怖了！</text>
-</view>
-</view>
-<view class='main'>
-<image src='../../common/images/img2.jpg'></image>
-<view class='cont'>
-<text class='bigSize'>照明商店</text>
-<text class='smlSize'>作者：姜草</text>
-<text class='smlSize'>妈耶,太恐怖了！</text>
-</view>
-</view>
+</block>
 </view>

@@ -1,13 +1,7 @@
 {
   "pages":[
-    "pages/list/index",
     "pages/index/index",
+    "pages/list/index",
     "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff4d6a",
-    "navigationBarTitleText": "微博动漫",
-    "navigationBarTextStyle":"white"
-  }
+  ]
 }
